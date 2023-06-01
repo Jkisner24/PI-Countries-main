@@ -1,0 +1,125 @@
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
+.prindiv {
+    background-image: url('../Images/pexels-mohan-reddy-3369214.jpg');
+    background-size: cover;
+    width: auto;
+    height: 1400px;
+}
+
+.bar {
+    background-color: #FDC500;
+    align-items: center;
+    justify-content: center;
+    height: 120px;
+    width: 100%;
+    display: flex;
+       
+}
+
+.bothome {
+    height: 115px;
+        
+}
+
+.bothome:hover {
+    height: 106px;
+    opacity: 90%;
+}
+
+.cardd {
+    border-radius: 3%;
+    margin-left: 33%;
+    margin-top: 15%;
+    background-color: rgba(239, 236, 216, 0.69);
+    min-height: 500px;
+    width:fit-content;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-right: 8%;
+   
+}
+
+.conpais {
+    margin-top: -50px;
+    padding-left: 50px;
+}
+
+.conact {
+    width: 200px;
+    border-radius: 3%;
+    position: relative;
+    left: 50px;
+    color: rgb(58, 76, 90);
+    text-align: center;
+    font-weight: bold;
+}
+
+
+.titulod {
+    color: rgb(58, 76, 90);
+    text-align: center;
+    border-bottom:rgb(58, 76, 90);
+    border-bottom-style: solid;
+}
+
+.banderad {
+    border-radius: 5px;
+    width: 12em;
+    height: 7.5em;
+    margin-bottom: -10px;
+    
+}
+
+.nombred {
+    color: rgb(9, 57, 154);
+    font-weight:bolder;
+    font-size: x-large;
+    text-align: center;
+}
+
+.continented {
+    color:rgb(9, 57, 154);
+    text-align: center;
+    font-size: large;
+}
+
+.codigo {
+    color: rgb(9, 57, 154);
+    text-align: center;
+    
+}
+
+.detalle {
+    color: rgba(62, 74, 81, 0.921);
+    margin: 4px;
+
+}
+
+.nombreact {
+    color: rgb(9, 57, 154);
+    margin-bottom: 8px;
+}
+
+.botactd {
+    font-weight: bold;
+    font-size: x-small;
+    padding: 4px;
+    margin: 20px;
+    font-family:'Verdana';
+    background-color: antiquewhite;
+    border-color: #07648f;
+    color: #07648f;
+    border-radius: 5px;
+
+}
+
+.botactd:hover {
+    background-color: #FFCC33;
+    border-color: rgb(235, 174, 19);
+    color: rgb(131, 89, 33);
+}

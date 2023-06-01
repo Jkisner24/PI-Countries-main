@@ -1,0 +1,48 @@
+.prindiv {
+    background-image: url('../Images/pexels-mohan-reddy-3369214.jpg');
+    background-size: cover;
+    width: 100%;
+    height: 1900px;
+    min-height: 1300px;
+}
+
+
+.contenedorCards {    
+    display: inline-flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 450px;
+    min-height: 500px;
+    align-content: center;
+    justify-content: center;
+    position: relative;
+    top: 75px;
+}
+
+.filtros {
+    color: blanchedalmond;
+    border-color: black;
+    border-radius: 5px;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #034462;
+    height: 6rem;
+    width: 100%;
+    color: white;
+    font-weight: bold;
+}
+
+.select {
+    border-radius: 5px;
+    border-color: #07648f;
+    padding: 3px;
+    margin: 8px;
+
+}
+
+.paginado {
+    margin: 40px;
+    padding: 10px;
+    padding-top: 30px;
+}

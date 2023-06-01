@@ -1,0 +1,45 @@
+html, body{
+    margin: 0;
+    padding: 0;
+}
+
+.landing {
+    display: flex;
+    align-items: center;
+    background-image: url("../Images/country3.jpg");
+    background-size: cover;
+    overflow: hidden;
+    height: 100vh;
+    padding-left: 10%;
+}
+
+.buttonLanding{
+    border-radius: 10px;
+    background-color:rgb(10, 168, 226);
+    font-size: x-large;
+    border-color: cornflowerblue;
+    color: white; 
+    box-shadow: 6px;
+}
+
+.buttonLanding:hover {
+    background-color:rgb(255, 255, 255) ;
+    color: rgb(10, 168, 226);
+    font-weight: inherit;
+    font-size: x-large;
+}
+
+.autor{
+    height: 40px;
+    margin-bottom: 30px;
+    border-bottom: 1px solid;
+    font-size: 20px;
+    color: aliceblue;
+} 
+
+.presentation{
+    font-size: 18px;
+    color: aliceblue;
+    height: 40px;
+
+}

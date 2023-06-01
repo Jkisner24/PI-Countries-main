@@ -1,0 +1,58 @@
+.card{
+    border-radius: 3%;
+    background-color: rgba(239, 236, 216, 0.69);
+    height: 300px;
+    width: 300px;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-direction: column;
+    
+}
+
+.bandera{
+    border-radius: 4%;
+    width: 9em;
+    height: 6em;
+    position: relative;
+    top: -30px;
+    left: 78px;
+    margin-top: 15px;
+    margin-bottom: -30px;
+}
+
+.titulo{
+    color: rgb(9, 57, 154);
+    font-weight: bolder;
+    font-size: x-large;
+    text-align: center;
+    margin-bottom: -10px; 
+    margin-left: 10px;
+    margin-right: 10px;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+}
+
+.continente {
+    color: rgb(9, 57, 154);
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.boton {
+    border-radius: 5px;
+    color:#07648f;;
+    background-color: antiquewhite;
+    width: 5em;
+    padding: 3px;
+    border-color: #07648f;
+    position: relative;
+    top: 20px
+}
+
+.boton:hover {
+    color: antiquewhite;
+    background-color: #07648f;
+    border-color: #07648f;
+}
